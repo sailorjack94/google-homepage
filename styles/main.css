@@ -25,12 +25,21 @@ body {
     color: black;
 }
 
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    padding: 15px;
+}
+
 .right {
     margin-right: 15px;
+    text-align: right;
 }
 
 .left {
     margin-left: 15px;
+    text-align: left;
 }
 
 .main {
