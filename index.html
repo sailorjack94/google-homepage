@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale =1.0" />
@@ -10,12 +10,33 @@
 
 </head>
 
-<main class="main">
+
+
+
+
+
 <body>
-    <div class="main_logo">
+    <div id="navlhs" class="abs top left">
+        <a href = "#" class = "left black">About</a>
+        <a href = "#" class = "left black">Store</a>
+    </div>
+
+    <div id="navrhs" class="abs top right">
+        <a href="#" class="right black">Gmail</a>
+        <a href="#" class="right black">Images</a>
+        <a href="#" class="right black">Sign In</a>
+    </div>
+
+
+    <div id="main" class="main_logo">
         <img src="images/google-logo.png" alt="Google Logo" height="150" width="350">
-        <p>Test</p>
+        <form action="#">
+            <input name = "query" id="query"><br>
+            <input type = "button" name = "search" class="button" value = "Google Search" id="searchtrigger">
+            <input type = "button" name = "search" class="button" value="I'm Feeling Lucky" id="searchtrigger">
+        </form>
     </div>
 
 </body>
 </main>
+</html>
